@@ -37,6 +37,7 @@ DESSERT
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
+
 <script>
   var slideIndex = 1;
 showSlides(slideIndex);
@@ -66,7 +67,57 @@ function showSlides(n) {
 }
 }
 </script>
+<style>
+.container {
+    position: relative;
+    width: 50%;
+}
 
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+</head>
+<body>
+
+<h2>Opacity with Box</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="http://www.cookingclassy.com/wp-content/uploads/2014/12/belgian-waffles3-edit-srgb..jpg" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">
+    	
 <h2>
 <center>
 	<strong>
@@ -165,4 +216,8 @@ Toppings of your choice
 </ul>
 
 </p>
+</div>
+</div>
+</div>
+</body>
 
