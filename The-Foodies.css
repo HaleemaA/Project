@@ -13,9 +13,8 @@ body {
 	background-image: url("cooking_ingredients_op_720x477.jpg");
 	background-repeat: initial;
 	background-attachment: local;
-	
-
 }
+
 img {
 	opacity: 0.1;
 	filter: alpha (opacity=40);
