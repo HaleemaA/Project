@@ -33,7 +33,7 @@ img {
 	margin: 0 auto;
 	max-width: 940px;
 	overflow: hidden;
-	padding: 41px 10px 27px;
+	padding: 70px 10px 27px;
 }
 #header div a.logo {
 	float: left;
@@ -93,8 +93,8 @@ img {
 	text-transform: uppercase;
 }
 #header div ul li.menu {
-	min-height: 35px;
-	z-index: 80;
+	min-height: 70px;
+	
 }
 #header div ul li.menu ul {
 	display: block;
@@ -105,7 +105,7 @@ img {
 	position: absolute;
 	top: 24px;
 	width: 106px;
-	z-index: 90;
+	
 }
 #header div ul li.menu:hover ul.primary, #header div ul li.menu ul#selected.primary {
 	left: -30px;
@@ -166,7 +166,7 @@ img {
 	text-transform: uppercase;
 	top: 437px;
 	width: 156px;
-	z-index: 90;
+	
 }
 #body.home div.body {
 	background-color: #eae7e8;
