@@ -108,7 +108,7 @@ img {
 	
 }
 #header div ul li.menu:hover ul.primary, #header div ul li.menu ul#selected.primary {
-	left: -30px;
+	left: 500px;
 }
 #header div ul li.menu:hover ul.secondary, #header div ul li.menu ul#selected.secondary {
 	left: -27px;
