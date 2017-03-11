@@ -445,7 +445,7 @@ img {
 	width: 220px;
 }
 #body div ul li h1 {
-	color: #E32A62;
+	color: rgb(202, 93, 187);
 	font-family: magra-bold-webfont;
 	font-size: 28px;
 	font-weight: normal;
@@ -458,7 +458,7 @@ img {
 #body div ul li p {
 	color: #7A6666;
 	font-family: roboto-regular-webfont;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: normal;
 	line-height: 24px;
 	margin: 0;
