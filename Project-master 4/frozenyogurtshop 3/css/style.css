@@ -810,13 +810,8 @@ img {
 	line-height: 40px;
 	width: 160px;
 }
-#body.contact div.body {
-	background: url(../images/map.jpg) no-repeat center top #b5aaad;
-	margin: 0;
-	max-width: none;
-	padding: 0;
-	width: 100%;
-}
+
+
 #body.contact div.body div {
 	margin: 0 auto;
 	max-width: 960px;
