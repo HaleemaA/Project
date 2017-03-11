@@ -92,7 +92,7 @@ img {
 	text-transform: uppercase;
 }
 #header div ul li.menu {
-	min-height: 70px;
+	min-height: 100px;
 	
 }
 #header div ul li.menu ul {
