@@ -717,6 +717,8 @@ img {
 }
 #footer div .connect a.facebook {
 	background-position: 0 0;
+	color:#4868ac;
+	border-color: #314776;
 }
 #footer div .connect a.googleplus {
 	background-position: 0 -32px;

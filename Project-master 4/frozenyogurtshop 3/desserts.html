@@ -1,4 +1,22 @@
 <!doctype html>
+<html lang="en">
+<head>
+	
+	<link href='bootstrap.min.js' rel='stylesheet'>
+	<link href='jquery-3.1.1.min.js' rel='stylesheet'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Desserties</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+
+
+
+ 
+	<script src="Scripts/main.js"></script>
 
 <html>
 <head>
@@ -30,17 +48,51 @@
 			</div>
 		</div>
 		<div id="body">
+
 			<div class="header">
 				<div>
 					<h1>Our Top 3 Desserts</h1>
 				</div>
 			</div>
 			<div>
+			<ul>
+				<li>
+					<div class="container">
 				<ul>
 					<li>
 						<h1>Waffles</h1>
 						<p>Cinnamon Roll Waffles with Cream Cheese Icing.
 					</p>
+					
+<a href="#" data-toggle="tooltip" font-size = 50px title="
+Ingredients
+  250g of flour
+  Spoonful of sugar
+  Pinch of powdered vanilla
+  Pinch of salt
+  Eight egg yolks
+  Half liter of sweetened cream or fresh milk
+  250g of butter
+  Eight egg whites
+
+Instructions
+1. In a mixing bowl mix flour, sugar, vanilla, salt, and egg yolks
+2. Blend in half a liter of sweetened cream or fresh milk and then melt the 250 grams of butter in a pan
+3. Whip the eight egg whites until they are very stiff
+4. Add the melted butter to the original mixture followed by the whipped egg whites
+5. Lightly grease a waffle iron and heat
+6. Fill one side with a good spoonful of the waffle mix and close the iron
+7. Cook until it has a golden color
+8. Serve with toppings of your choice"
+>Recipe</a></ul>
+</div>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+</li>
+
 					</li>
 					<li>
 						<img src="WaffleCinnamon.jpg" alt="">
@@ -48,10 +100,36 @@
 			
 
 				<ul>
-					<li>
+				<li>
+					<div class="container">
+ 					<ul>
 						<h1>Ice Cream</h1>
 						<p>Seasonal Blueberry Icecream</p>
-					</li>
+					
+ <a href="#" data-toggle="tooltip" title="
+Ingredients
+4 C fresh or frozen blueberries
+2 C sugar
+1 Tbsp vanilla
+pinch of salt
+1 C whole milk
+1 C half and half
+2 C whipping cream
+Instructions
+1. Puree blueberries in blender.
+2. Add pureed blueberries and sugar in sauce pan and stir, warming until sugar dissolves.
+3. Refrigerate mixture until cold.
+4. Add in vanilla, salt, milk, ½ and ½ and cream. Mix.
+5. Pour into ice cream maker and churn.
+6. Freeze to allow ice cream to set up and ripen."
+>Recipe</a></ul>
+</div>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+</li>
 					<li>
 						<img src="BlueberryIceCream.jpg" alt="">
 					</li>	
