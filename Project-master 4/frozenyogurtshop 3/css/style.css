@@ -120,6 +120,10 @@ img {
 	margin: 0;
 	padding: 0;
 }
+
+
+
+
 /*----------------------------------------body-home-styles---------------------------------------*/
 #body.home {
 	margin: 0;
@@ -338,14 +342,7 @@ img {
 	text-align: center;
 	text-transform: uppercase;
 }
-#body div.body {
-	background-color: #ebebed;
-	margin: 0;
-	max-width: none;
-	min-height: 249px;
-	overflow: hidden;
-	padding: 0;
-	width: 100%;
+
 }
 #body div.body img {
 	display: block;
@@ -521,19 +518,7 @@ img {
 	position: relative;
 	width: auto;
 }
-#body.contact div.body div div h1 {
-	color: #CB3362;
-	float: left;
-	font-family: lato-regular-webfont;
-	font-size: 24px;
-	font-weight: normal;
-	line-height: 24px;
-	margin: 0;
-	padding: 15px 0 4px;
-	text-align: left;
-	text-transform: uppercase;
-	width: 510px;
-}
+
 #body.contact div.body div div p {
 	color: #7a6666;
 	float: left;
@@ -571,15 +556,15 @@ img {
 	font-weight: normal;
 	line-height: 24px;
 	margin: 0;
-	padding: 0 0 43px;
-	text-align: left;
+	padding: 0px;
+	text-align: center;
 	text-transform: uppercase;
 	width: auto;
 }
 #body div.footer .contact form {
 	margin: 0;
 	overflow: hidden;
-	padding: 0;
+	padding: 10px;
 	width: 560px;
 }
 #body div.footer .contact form input {
