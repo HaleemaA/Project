@@ -342,7 +342,14 @@ img {
 	text-align: center;
 	text-transform: uppercase;
 }
-
+#body div.body {
+	background-color: #ebebed;
+	margin: 0;
+	max-width: none;
+	min-height: 249px;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
 }
 #body div.body img {
 	display: block;
@@ -556,7 +563,7 @@ img {
 	font-weight: normal;
 	line-height: 24px;
 	margin: 0;
-	padding: 0px;
+	padding: -90px;
 	text-align: center;
 	text-transform: uppercase;
 	width: auto;
@@ -564,7 +571,7 @@ img {
 #body div.footer .contact form {
 	margin: 0;
 	overflow: hidden;
-	padding: 10px;
+	padding: 100px;
 	width: 560px;
 }
 #body div.footer .contact form input {
