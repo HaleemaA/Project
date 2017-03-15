@@ -30,6 +30,13 @@ font-size: 20px;
 
 }
 
+#intro {
+	text-align:center;
+	font: helvetica;
+	width:40%;
+	margin:20px auto;
+
+}
 
 #header {
 	background-color: rgb(255, 238, 77);
