@@ -915,3 +915,13 @@ cursor: pointer;
   color:red;
 }
 
+.btn-twitter {
+    background: rgb(78, 127, 240);
+}
+
+.btn-facebook {
+    background: rgb(53, 89, 177);
+}
+.btn-pinterest {
+    background: rgb(178, 9, 9);
+}
